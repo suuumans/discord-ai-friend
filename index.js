@@ -13,8 +13,7 @@ const client = new Client({
 client.once("ready", () => {
   console.log(`Bot is online as ${client.user.tag}`);
 });
-// Extract the response processing logic into a separate function
-// filepath: /Users/suman/programming/discord-bot/index.js
+
 async function processAndSendResponse(message, query, userId) {
   await message.channel.sendTyping();
   const response = await generateResponse(query, userId);
