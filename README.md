@@ -21,7 +21,7 @@ A simple Discord bot that uses Google Gemini (via the OpenAI SDK) to provide AI-
 1. **Clone the repository**
 
    ```sh
-   git clone <https://github.com/suuumans/discord-ai-friend.git>
+   git clone https://github.com/suuumans/discord-ai-friend.git
    cd discord-bot
    ```
 
